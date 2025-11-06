@@ -11,26 +11,26 @@ This workflow allows you to perform the following actions:
 Note: This support package is functional for R2022b and later releases listed in the table below
 
 ## Software Compatibility
+- For 64-bit LabVIEW -
+    | HDL Coder™ Support Package for NI FPGA Hardware | MathWorks Simulink® | LabVIEW Full or Professional Development Systems(64-bit) | LabVIEW FPGA Module(64-bit) | NI R Series Multifunction RIO with LabVIEW Support(64-bit)** | FlexRIO with Integrated IO(PXIe-7890/7891)*** | IP to FPGA Conversion Utility |
+    |:-|:-|:-|:-|:-|:-|:-|
+    | 25.8 (2025 Q4) |R2025b*<br>R2025a*<br>R2024b*<br>R2024a*<br>R2023b*<br>R2023a*<br> R2022b* | 2023<br>2024<br>2025 | 2023<br>2024<br>2025 | 2025 Q4 | 2025 Q4 | 2025 Q4 
+    | 25.3 (2025 Q2) |R2025a*<br>R2024b*<br>R2024a*<br>R2023b*<br>R2023a*<br> R2022b* | 2023<br>2024<br>2025 | 2023<br>2024<br>2025 | 2025 Q1 | 2025 Q1 | 2025 Q2 
+    | 24.5 (2024 Q3) | R2024a*<br>R2023b*<br>R2023a*<br> R2022b* | 2023 and 2024 | 2023 and 2024 | 2024 Q3 | 2024 Q3 | 2024 Q3 |
+    | 24.0 (2024 Q1) | R2023b*<br>R2023a*<br> R2022b* | 2023 | 2023 | 2023 Q2 | 2023 Q2 | 2024 Q1 |
+    | 23.5 (2023 Q3) | R2023a*<br> R2022b* | 2023 | 2023 | 2023 Q2 | 2023 Q2 | 2023 Q3 |
+    | 23.3 (2023 Q2) | R2023a*<br> R2022b* | 2023 | 2023 | 2023 Q1 | Not Supported | 2023 Q2 |
 
 - For 32-bit LabVIEW -
     | HDL Coder™ Support Package for NI FPGA Hardware | MathWorks Simulink® | LabVIEW Full or Professional Development Systems(32-bit) | LabVIEW FPGA Module(32-bit) | NI R Series Multifunction RIO with LabVIEW Support(32-bit)** | FlexRIO with Integrated IO(PXIe-7890/7891)*** | IP to FPGA Conversion Utility |
     |:-|:-|:-|:-|:-|:-|:-|
-    | 24.5 (2024 Q3) | R2024b*<br>R2024a*<br>R2023b*<br>R2023a*<br> R2022b* | 2021 | 2021 | 2024 Q3 | 2024 Q3 | 2024 Q3 |
+    | 24.5 (2024 Q3) | R2024a*<br>R2023b*<br>R2023a*<br> R2022b* | 2021 | 2021 | 2024 Q3 | 2024 Q3 | 2024 Q3 |
     | 24.0 (2024 Q1) | R2023b*<br>R2023a*<br> R2022b* | 2020 and 2021 | 2020 and 2021 | 2023 Q2 | 2023 Q2(Only LabVIEW 2021 supported) | 2024 Q1 |
     | 23.5 (2023 Q3) | R2023a*<br> R2022b* | 2020 and 2021 | 2020 and 2021 | 2023 Q2 | 2023 Q2(Only LabVIEW 2021 supported) | 2023 Q3 |
     | 23.3 (2023 Q2) | R2023a*<br> R2022b* | 2020 and 2021 | 2020 and 2021 | 2023 Q1 | Not Supported | 2023 Q2 |
     | 23.0 (2023 Q1) | R2022b* | 2019, 2020 and 2021 | 2019, 2020 and 2021 | 2022 Q4 | Not Supported | 2023 Q1 |
 
-- For 64-bit LabVIEW -
-    | HDL Coder™ Support Package for NI FPGA Hardware | MathWorks Simulink® | LabVIEW Full or Professional Development Systems(64-bit) | LabVIEW FPGA Module(64-bit) | NI R Series Multifunction RIO with LabVIEW Support(64-bit)** | FlexRIO with Integrated IO(PXIe-7890/7891)*** | IP to FPGA Conversion Utility |
-    |:-|:-|:-|:-|:-|:-|:-|
-    | 25.3 (2025 Q2) | R2025a*<br>R2024b*<br>R2024a*<br>R2023b*<br>R2023a*<br> R2022b* | 2023<br>2024<br>2025 | 2023<br>2024<br>2025 | 2025 Q1 | 2025 Q1 | 2025 Q2 |
-    | 24.5 (2024 Q3) | R2024b*<br>R2024a*<br>R2023b*<br>R2023a*<br> R2022b* | 2023 and 2024 | 2023 and 2024 | 2024 Q3 | 2024 Q3 | 2024 Q3 |
-    | 24.0 (2024 Q1) | R2023b*<br>R2023a*<br> R2022b* | 2023 | 2023 | 2023 Q2 | 2023 Q2 | 2024 Q1 |
-    | 23.5 (2023 Q3) | R2023a*<br> R2022b* | 2023 | 2023 | 2023 Q2 | 2023 Q2 | 2023 Q3 |
-    | 23.3 (2023 Q2) | R2023a*<br> R2022b* | 2023 | 2023 | 2023 Q1 | Not Supported | 2023 Q2 |
-
-\* Make sure to look up the [known issues](https://github.com/ni/hdlcoder-support-package-for-nifpga-hardware/releases/tag/v25.3) table and apply any suggested workarounds accordingly before using release 25.3.
+\* make sure to look up the [known issues](https://github.com/ni/hdlcoder-support-package-for-nifpga-hardware/releases/tag/v25.8) table and apply any suggested workarounds accordingly before using release 25.8.
 
 \** **Note**: **NI R Series Multifunction RIO with LabVIEW Support** driver is required only for R-series devices.
 
@@ -45,9 +45,10 @@ Install and activate [LabVIEW Full or Professional Development Systems](https://
 ### Install HDL Coder Support Package for NI FPGA Hardware
 
 1. Open the MATLAB Add-On Explorer.
-1. Use the search bar to find **HDL Coder Support Package for NI FPGA Hardware**
-1. Install the add-on.
-1. Restart MATLAB.
+2. Use the search bar to find **HDL Coder Support Package for NI FPGA Hardware**
+3. Install the add-on.
+4. Restart MATLAB.
+5. If using HDLCoder 25.8 or above, run `dotnetenv("core")` to set the environment to .NET Core.
 
 ### Compile Server Considerations
 
